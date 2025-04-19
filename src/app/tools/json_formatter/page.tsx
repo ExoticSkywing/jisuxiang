@@ -394,7 +394,7 @@ export default function JsonFormatter() {
       description: "高效开发工具集成平台",
       author: {
         name: "JiSuXiang开发团队",
-        email: "support@jisuxiang.com"
+        email: "nebuluxe@1yo.cc"
       },
       features: [
         "JSON格式化与验证",

@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  jisuxiang:
+    container_name: jisuxiang-tools  # 自定义容器名称
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "37891:3000"  # 宿主机端口:容器端口 (使用不常用的37891端口)
+    environment:
+      - NODE_ENV=production
+      - HOSTNAME=0.0.0.0
+      - PORT=3000  # 明确指定容器内部端口
+    restart: always  # 自动重启策略
+    networks:
+      - jisuxiang-net
+
+networks:
+  jisuxiang-net:  # 创建专用网络
+    driver: bridge

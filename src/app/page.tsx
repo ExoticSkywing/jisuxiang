@@ -35,10 +35,10 @@ export default function Home() {
 
   // 产品推荐列表
   const recommendedProducts = [
-    { title: "ShowDoc", url: "https://www.showdoc.com.cn/", description: "API文档、技术文档工具", icon: faBook },
-    { title: "RunApi", url: "https://www.runapi.com.cn/", description: "接口管理与测试平台", icon: faCode },
-    { title: "大风云", url: "https://www.dfyun.com.cn/", description: "性价比巨高的CDN服务", icon: faCloud },
-    { title: "Push", url: "https://push.showdoc.com.cn/", description: "消息推送服务", icon: faBell }
+    { title: "iOS高端玩法", url: "https://i.ysl.monster/archives/eHM3Wu7c", description: "你从未看到过的苹果玩法", icon: faBook },
+    { title: "苹果应用商店", url: "https://appstore.1yo.cc/app", description: "每一个都是你想下载的好玩应用j", icon: faCode },
+    { title: "高质量在线影视", url: "https://mlml.1yo.cc", description: "免费高质量韩剧美剧", icon: faCloud },
+    { title: "开店入驻", url: "https://store.ysl.monster", description: "为数字物品付费", icon: faBell }
   ];
 
   // 点击其他区域关闭产品推荐下拉菜单
@@ -544,7 +544,7 @@ export default function Home() {
               )}
               
               <a 
-                href="https://github.com/star7th/jisuxiang"
+                href="https://lmyz.1yo.cc"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-secondary w-8 h-8 md:w-10 md:h-10 rounded-full flex items-center justify-center"
@@ -607,7 +607,7 @@ export default function Home() {
             
             {/* GitHub链接按钮 */}
             <a 
-              href="https://github.com/star7th/jisuxiang"
+              href="https://lmyz.1yo.cc"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-secondary w-10 h-10 rounded-full flex items-center justify-center group relative"
@@ -752,16 +752,16 @@ export default function Home() {
       {/* 底部 */}
       <footer className="mt-auto py-6 sm:py-8 border-t" style={{borderColor: 'rgb(var(--color-bg-secondary))'}}>
         <div className="flex justify-center items-center text-sm" style={{color: 'rgb(var(--color-text-tertiary))'}}>
-          <span>本站基于开源项目 </span>
+          <span>此项目由 </span>
           <a 
-            href="https://github.com/star7th/jisuxiang" 
+            href="https://lmyz.1yo.cc" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="mx-1 text-[rgb(var(--color-primary-light))] hover:underline transition-colors"
           >
-            极速箱
+            浪漫宇宙
           </a>
-          <span> 搭建</span>
+          <span> 提供强力驱动</span>
         </div>
       </footer>
     </div>
