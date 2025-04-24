@@ -13,7 +13,7 @@ RUN npm ci
 COPY . .
 
 # 构建应用
-RUN npm run build
+RUN npm run build --no-cache
 
 # 生产阶段
 FROM node:20-alpine  AS runner
